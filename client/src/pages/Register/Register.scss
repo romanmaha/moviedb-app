@@ -1,0 +1,116 @@
+.login {
+  height: calc(100vh - 70px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #393e46;
+  position: relative;
+}
+.loginWrapper {
+  width: 60%;
+  height: 75%;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  background-color: #eeeeee;
+}
+.icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 5px;
+}
+
+.left,
+.right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.leftTitle {
+  color: #fd7014;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: center;
+  margin: 0 50px;
+  span {
+    font-size: 18px;
+    color: #393e46;
+    font-weight: 400;
+    font-style: italic;
+  }
+}
+.center {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.or {
+  border: 2px solid #393e46;
+  border-radius: 50%;
+  padding: 5px;
+  color: #393e46;
+  background-color: #eeeeee;
+  font-weight: bold;
+  z-index: 2;
+}
+.line {
+  width: 0.5px;
+  height: 50%;
+  background-color: #636974;
+  position: absolute;
+}
+
+.loginButton {
+  width: 150px;
+  padding: 15px 25px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.loginButton:hover {
+  border-bottom: 1px solid #fd7014;
+}
+.loginButtonText {
+  font-weight: 500;
+  font-style: 18px;
+}
+input {
+  width: 200px;
+  padding: 10px 0px;
+  margin-bottom: 10px;
+  border: none;
+  border-bottom: 1px solid #fd7014;
+  outline: none;
+  background-color: transparent;
+}
+.submitBtn {
+  width: 200px;
+  background-color: #fd7014;
+  color: white;
+  border: none;
+  padding: 10px 0;
+  font-weight: bold;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.loginTitle {
+  position: absolute;
+  top: 130px;
+  color: #fd7014;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+.alert {
+  position: absolute;
+  width: 15%;
+  bottom: 40px;
+  right: 40px;
+}

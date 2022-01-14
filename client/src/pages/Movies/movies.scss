@@ -1,0 +1,31 @@
+.movies {
+  padding: 0 50px;
+}
+.moviesWrapper {
+  display: flex;
+}
+.moviesFilter {
+  flex: 2;
+
+  .moviesSort {
+    margin-top: 20px;
+  }
+  .select:focus {
+    border: none;
+  }
+}
+
+.moviesList {
+  flex: 10;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+}

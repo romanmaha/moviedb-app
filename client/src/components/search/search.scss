@@ -1,0 +1,19 @@
+.moviesSearch {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  .moviesSearchInput {
+    padding: 10px 10px;
+    margin-bottom: 10px;
+  }
+  .searchBtn {
+    background-color: #393e46;
+    border: none;
+    color: #fd7014;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}

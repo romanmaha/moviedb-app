@@ -1,0 +1,71 @@
+.movieWrapper {
+  padding: 0 50px;
+  display: flex;
+  .left {
+    flex: 2;
+    position: relative;
+    img {
+      margin-top: 30px;
+      margin-left: 50px;
+      width: 300px;
+      height: 450px;
+    }
+  }
+  .right {
+    flex: 10;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin-left: 50px;
+    .movieTitle {
+      font-size: 50px;
+      font-weight: 700;
+    }
+    .movieYear {
+      color: #fd7014;
+    }
+    .movieGenres {
+      display: flex;
+      .movieGanre {
+        width: 120px;
+        height: 30px;
+        background-color: #fd7014;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 25px;
+        font-weight: 500;
+        margin-top: 10px;
+        margin-right: 10px;
+        font-size: 14px;
+      }
+    }
+
+    .movieTagline {
+      font-style: italic;
+      font-weight: 500;
+      margin-top: 10px;
+    }
+    .movieOverview {
+      font-size: 20px;
+      font-weight: 500;
+      margin-top: 10px;
+    }
+    .movieOverviewText {
+      margin-top: 10px;
+      width: 75%;
+      line-height: 25px;
+      font-weight: 300;
+    }
+    .movieBudget,
+    .productionCountries {
+      font-size: 20px;
+      font-weight: 500;
+      margin-top: 10px;
+      span {
+        font-weight: 300;
+      }
+    }
+  }
+}

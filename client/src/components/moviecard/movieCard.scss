@@ -1,0 +1,65 @@
+.card {
+  display: flex;
+  max-width: 180px;
+  min-height: 270px;
+  flex-direction: column;
+  border-radius: 15px;
+  color: #222831;
+  position: relative;
+
+  .cardImg {
+    max-width: 180px;
+    max-height: 190px;
+    object-fit: contain;
+  }
+  .cardTitle {
+    font-weight: 500;
+    font-size: 12px;
+    margin-top: 5px;
+    text-align: start;
+  }
+  .cardRate {
+    position: absolute;
+    top: -5px;
+    left: 10px;
+    width: 30px;
+    height: 30px;
+    background-color: #fd7014;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
+  .movieActions {
+    display: flex;
+    width: 50px;
+    height: 21px;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    margin-top: 20px;
+    bottom: 70px;
+    right: 27px;
+    background-color: #222831;
+    border-radius: 5px 0 0 0;
+    .favouriteMovie,
+    .toSeeLater {
+      color: #fd7014;
+      cursor: pointer;
+    }
+    .favouriteMovie.active,
+    .toSeeLater.active {
+      color: white;
+    }
+    .toolTip {
+      background-color: #fd7014;
+      color: #222831;
+    }
+  }
+}

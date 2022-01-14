@@ -1,0 +1,55 @@
+.header {
+  height: 70px;
+  width: 100%;
+  background-color: #222831;
+  color: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 50px;
+
+  .headerLeft {
+    display: flex;
+    align-items: center;
+    .headerLogo {
+      font-weight: 700;
+      font-size: 20px;
+      margin-right: 100px;
+    }
+    .linkItem {
+      font-weight: 500;
+      color: #fd7014;
+      margin-right: 20px;
+    }
+  }
+  .headerRight {
+    display: flex;
+    align-items: center;
+
+    .headerUserImg {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+    .headerUserName {
+      font-weight: 500;
+      margin-right: 50px;
+    }
+    .logoutButton {
+      background-color: transparent;
+      border: 1px solid #fd7014;
+      color: #fd7014;
+      padding: 5px 10px;
+      border-radius: 5px;
+      font-weight: 500;
+      font-size: 16px;
+      cursor: pointer;
+    }
+  }
+  .link {
+    text-decoration: none;
+    color: inherit;
+  }
+}
